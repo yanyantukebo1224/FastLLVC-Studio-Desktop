@@ -28,7 +28,6 @@ Python環境や各種ライブラリのインストールは一切不要。**た
 | **CPU計算負荷 (i5 / Ryzen5等)** | **RTF 0.15x 〜 0.35x (超軽量)** | **RTF 1.20x 〜 3.50x (遅延膨大)** | CPU単体でも余裕のリアルタイム変換 |
 | **GPU計算時間 (RTX 3060等)** | **~3.5 ms (RTF 0.02x)** | **~25.0 ms (RTF 0.10x)** | GPU動作時も極限まで高速 |
 | **F0 (ピッチ) 抽出処理** | **なし (Direct Predictive Frame)** | **必須 (Harvest / Crepe / RMVPE)** | 重い F0 抽出処理がないため超高速・超低遅延 |
-| **打鍵音・環境雑音への耐性** | **完全保持 (タイピング音を自動カット)** | **ノイズもピッチ変換して誤作動** | 無声雑音をピッチ判定して裏返る現象が一切起きない |
 | **独立モニター出力 (聴き返し)** | **標準搭載 (非同期デュアルストリーム)** | **外部ミキサーアプリ等が必要** | Discordへの送音と自分の耳での確認を完全別調整 |
 | **モデルサイズ (.pth)** | **約 12 MB 〜 13 MB** | **約 50 MB 〜 200 MB** | メモリ消費量が非常に小さくポータブル |
 | **ポータブル性** | **単一 `.exe` (完全同梱・インストール不要)** | **Python環境 / WebUI依存** | 学校や出先のPCでもUSBから即座に起動 |
@@ -91,7 +90,6 @@ No Python installation or library setup required. **Just launch the single `.exe
 | **CPU Real-Time Factor (RTF)** | **0.15x - 0.35x (Ultra Lightweight)** | **1.20x - 3.50x (Severe Lag)** | Runs smoothly on CPU alone without audio stuttering |
 | **GPU Inference Speed** | **~3.5 ms (RTF 0.02x)** | **~25.0 ms (RTF 0.10x)** | Extremely fast GPU pipeline |
 | **F0 (Pitch) Extraction** | **None (Direct Predictive Frame)** | **Required (Harvest / Crepe / RMVPE)** | Eliminates heavy F0 estimation bottlenecks |
-| **Keyboard / Noise Tolerance** | **Impenetrable (Filters typing noise)** | **Glitchy (Pitches up background noise)** | No high-pitched squeaks on background noise or mechanical typing |
 | **Independent Audio Monitoring** | **Native (Async Dual-Stream)** | **Requires Third-party Mixers** | Monitor converted voice with separate headphone volume controls |
 | **Model Weight Size (.pth)** | **~50 MB - 70 MB** | **~50 MB - 200 MB** | Lightweight memory footprint |
 | **Portability** | **Single `.exe` (Self-contained)** | **Python / WebUI Dependent** | Run directly from a USB flash drive on any PC |
