@@ -123,6 +123,14 @@ Fast-LLVC replaces feature extraction with a **Causal Convolutional Neural Netwo
 
 ---
 
+## 🗺️ Roadmap & Future Plans
+
+- [x] Single EXE Release for Windows (CPU/GPU Inference)
+- [ ] **Advanced Training UI** (Upcoming feature)
+  - Dedicated training suite with customizable parameters & Dataset management.
+  - *Note: The Training UI will be released in an upcoming update as a premium/supporter feature.*
+     
+---
 ## 📜 License
 
 This project is licensed under the [MIT License](LICENSE).
